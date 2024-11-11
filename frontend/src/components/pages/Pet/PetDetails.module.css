@@ -1,0 +1,46 @@
+.petdetailscontainer {
+    text-align: center;
+}
+
+.petdetailscontainer p {
+    margin-bottom: 1em;
+}
+
+.petdetailsheader {
+    margin-bottom: 2em;
+}
+
+.petimages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.petimages img {
+    max-height: 200px;
+    margin: 1em;
+}
+
+.petdetailscontainer button {
+    border: none;
+    text-decoration: none;
+    background-color: #25b456;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-left: 1em;
+    max-width: 200px;
+    min-height: 2.5em;
+}
+
+
+.petdetailscontainer button:hover {
+    background-color: #1c8a42;
+}
